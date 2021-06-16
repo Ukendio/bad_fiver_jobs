@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBX67393F42B9B44543BA65CFBA68DF0676">
+	<Item class="Model" referent="RBX748F4413A09D4DB9BAF6A15475931D68">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<token name="LevelOfDetail">0</token>
@@ -40,7 +40,7 @@
 				<Y>0</Y>
 				<Z>0</Z>
 			</Vector3>
-			<string name="Name">Attribtute System</string>
+			<string name="Name">AttributeSystem Fully Optimized, Approved by devs</string>
 			<bool name="NeedsPivotMigration">false</bool>
 			<Ref name="PrimaryPart">null</Ref>
 			<int64 name="SourceAssetId">-1</int64>
@@ -62,7 +62,7 @@
 				</CFrame>
 			</OptionalCoordinateFrame>
 		</Properties>
-		<Item class="Model" referent="RBX2CE201E2BAE247B89FA9AA9F28539A33">
+		<Item class="Model" referent="RBX90B0D17545484C41999C2DF572229324">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -122,21 +122,21 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Folder" referent="RBX30D37E85679041419631799EC63B3677">
+			<Item class="Folder" referent="RBXAA53879FFA564930B5F34AA24DA33A90">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Attributes</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Folder" referent="RBX6CBBF200FA4E4CF9AD922316B232667E">
+				<Item class="Folder" referent="RBXDD1823CCA61840F78D91CA020C842176">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<string name="Name">Functions</string>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="RemoteFunction" referent="RBX7BB6E7E29510466BB674B37EBBAF5EAE">
+					<Item class="RemoteFunction" referent="RBX21866133115A4A6494953873B28F9157">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<string name="Name">Download</string>
@@ -144,7 +144,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="RemoteFunction" referent="RBX781D92AF9EFE429EABBFECAA65253E33">
+					<Item class="RemoteFunction" referent="RBX8F3E6D64996648B784A01FEF664FE9F2">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<string name="Name">Request</string>
@@ -152,7 +152,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="RemoteFunction" referent="RBX32144DB44C2C4A2E8886E877D2086966">
+					<Item class="RemoteFunction" referent="RBX8FFF53ABEE26493499BAE3B5F2A9C47E">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<string name="Name">GetOwned</string>
@@ -160,7 +160,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="RemoteFunction" referent="RBXD6E3443A20A24B9C9BBE8E8FE5448CA4">
+					<Item class="RemoteFunction" referent="RBXC16C881DEA66412CA20D4DE509C7E123">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<string name="Name">Update</string>
@@ -169,20 +169,20 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Folder" referent="RBXCC62A47854794F64A959CA097F99BFF5">
+				<Item class="Folder" referent="RBX7F03F7E662214560ABBB1C9C0124AE2A">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<string name="Name">Scripts</string>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="Script" referent="RBX103607B6C1F04D418739880BB5231A57">
+					<Item class="Script" referent="RBXC4F04A1B7B7C44B7B0B47719CF09B2C9">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<bool name="Disabled">false</bool>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">Health</string>
-							<string name="ScriptGuid">{2C2699ED-34A7-47C9-AB07-68183D8A4599}</string>
+							<string name="ScriptGuid">{EC3A881D-5F49-4644-A69D-FB60F2E59FF2}</string>
 							<ProtectedString name="Source"><![CDATA[-- Gradually regenerates the Humanoid's Health over time.
 
 local REGEN_RATE = 1/100 -- Regenerate this fraction of MaxHealth per second.
@@ -206,7 +206,7 @@ end]]></ProtectedString>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="NumberValue" referent="RBXB1E64C5020EE4F5A815D1FA3E642F012">
+						<Item class="NumberValue" referent="RBXCE3F399BAD874E6DA264BFDE6D8F4E38">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<string name="Name">RegenAmount</string>
@@ -219,7 +219,7 @@ end]]></ProtectedString>
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBX132F9AD946E34868B988F64CCE8B7640">
+		<Item class="Model" referent="RBX3155354D0C7D411E8B07F13557428060">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -279,27 +279,27 @@ end]]></ProtectedString>
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Folder" referent="RBXE8A196769F1F48478B10331D41FB033E">
+			<Item class="Folder" referent="RBXD39D3254BBFF4FAC833EC1A43B3AEAF0">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Attributes</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Folder" referent="RBX952223490FB9442691A6E03CEEC8886E">
+				<Item class="Folder" referent="RBX11C7C47F779B43A28167206BEB1AD664">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<string name="Name">Core</string>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="Script" referent="RBXCA2FA00C706D462D9D57563D379B41CD">
+					<Item class="Script" referent="RBXD7996642EA3F4D788F3A0939B8436C38">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<bool name="Disabled">false</bool>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">CoreHandler</string>
-							<string name="ScriptGuid">{BC31960F-1A27-4586-89EC-1CAFDD48F815}</string>
+							<string name="ScriptGuid">{C30FFE69-8E0C-4644-9F5E-C386EDD381B4}</string>
 							<ProtectedString name="Source"><![CDATA[
 local players = game:GetService("Players")
 local ss = game:GetService("ServerStorage")
@@ -392,13 +392,13 @@ end]]></ProtectedString>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="Script" referent="RBX3EFC5CED2FB54F5BAA7151A5F398B923">
+					<Item class="Script" referent="RBX901A6B3223E94B8098D44D3929F26485">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<bool name="Disabled">false</bool>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">AbilityHandler</string>
-							<string name="ScriptGuid">{B5A42E1F-1921-4960-9973-7CECE66A498F}</string>
+							<string name="ScriptGuid">{9D68D681-1E8F-43FE-8EE8-60F8729417A8}</string>
 							<ProtectedString name="Source"><![CDATA[
 local ss = game:GetService("ServerStorage")
 local rs = game:GetService("ReplicatedStorage")
@@ -520,7 +520,7 @@ function Update(player, humanoid)
 	end
 	TotalVals = {}
 	-- Update hidden from ai 
-	
+	TotalVals = {}
 	for _, AggroVals in pairs(player.DataFolder.Aggro:GetChildren()) do
 		table.insert(TotalVals, {CurValue = AggroVals.Name, Number = AggroVals.Value})
 	end
@@ -529,9 +529,6 @@ function Update(player, humanoid)
 	local check = CheckMax()
 	if check == true then
 		player.DataFolder.AIDistance.Value = datamod.Info['Aggro']['5'].Distance 
-		print('Aggro is true')
-		print(TotalVals)
-		print("num"..num1)
 	else
 		player.DataFolder.AIDistance.Value = datamod.Info['Aggro'][num1..''].Distance 
 	end
@@ -541,13 +538,13 @@ end]]></ProtectedString>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="Script" referent="RBX17CF056ACDFD44B78035EDBBCB577F98">
+					<Item class="Script" referent="RBX11DD78A9C8D1459884804B913B60E6CC">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<bool name="Disabled">false</bool>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">data</string>
-							<string name="ScriptGuid">{2E693DBB-FAA6-41DA-A9B5-CB3E6660E049}</string>
+							<string name="ScriptGuid">{6FD8F15F-0B6A-499F-99B0-ED2B015B9919}</string>
 							<ProtectedString name="Source"><![CDATA[
 -- I don't belive there is a better way to do this, It is basically setting leaderstats in the player
 
@@ -681,6 +678,7 @@ game.Players.PlayerAdded:Connect(function(player)
 	local data1 = Instance.new("NumberValue")
 	data1.Parent = speed
 	data1.Name = "1"
+	data1.Value = 1
 	local data2 = Instance.new("NumberValue")
 	data2.Parent = speed
 	data2.Name = "2"
@@ -713,7 +711,7 @@ end)]]></ProtectedString>
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBX443C598B09044A438A32FEDFFBC4B054">
+		<Item class="Model" referent="RBXA746501110B448A1AB083577DA6A997B">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -773,26 +771,26 @@ end)]]></ProtectedString>
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Folder" referent="RBX53827DB67FA64D3A92961F684CA2BD0F">
+			<Item class="Folder" referent="RBX155C18B99B6D4A62BAE1314123BB70EE">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Attributes</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Folder" referent="RBX26118055C9E34F9494D2F746F6B0D706">
+				<Item class="Folder" referent="RBX4EE164DDEC77478BB51ECBE1E56CD9D7">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<string name="Name">Module</string>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="ModuleScript" referent="RBXFCC2A6FD2F424D8B9B52B27C76F5B48E">
+					<Item class="ModuleScript" referent="RBX4188DCFF62474B458200D79C88201B64">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<Content name="LinkedSource"><null></null></Content>
 							<string name="Name">Data</string>
-							<string name="ScriptGuid">{A89E507F-AFE8-4A7E-B185-DABD00045396}</string>
+							<string name="ScriptGuid">{B9202AF5-915F-40F1-B688-8B1460D057CD}</string>
 							<ProtectedString name="Source"><![CDATA[local Data = {}
 
 Data.Info = {
@@ -855,7 +853,7 @@ return Data
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBXAD3C57E48E104CB7A7DCEF380E865396">
+		<Item class="Model" referent="RBXD2F58FFB97D14EE885D5612AC1103084">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -893,7 +891,7 @@ return Data
 					<Y>0</Y>
 					<Z>0</Z>
 				</Vector3>
-				<string name="Name">UnGroupStarterGUi</string>
+				<string name="Name">StarterGui</string>
 				<bool name="NeedsPivotMigration">false</bool>
 				<Ref name="PrimaryPart">null</Ref>
 				<int64 name="SourceAssetId">-1</int64>
@@ -915,7 +913,7 @@ return Data
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="ScreenGui" referent="RBXFD5AB9442C714A0F85EE7FFB986AA0CB">
+			<Item class="ScreenGui" referent="RBX1A565C72E87F4D60A4047257450FFA83">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<bool name="AutoLocalize">true</bool>
@@ -929,7 +927,7 @@ return Data
 					<BinaryString name="Tags"></BinaryString>
 					<token name="ZIndexBehavior">1</token>
 				</Properties>
-				<Item class="Frame" referent="RBX456E3D17846740F8AC8C380BF7C7AA7F">
+				<Item class="Frame" referent="RBX91EC7211287E47C8860010BFB54F83F5">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -983,7 +981,7 @@ return Data
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="Frame" referent="RBXF728B88412794845B01350488118DF34">
+					<Item class="Frame" referent="RBXB5F23865B7B2494280D2F6CCDB9240D1">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -1037,7 +1035,7 @@ return Data
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBX768CA29BDB0D4BC6A2B0F5E3FD8289B5">
+						<Item class="TextLabel" referent="RBX00884DF342E44BECA28E2BE3DA14F15E">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1114,7 +1112,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBXCD018A526B784F858F31ADDA081174A4">
+						<Item class="Frame" referent="RBX84E250882EBC4E0BA0A784A879CB4485">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1169,7 +1167,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBXF103DBA24A5248D79676CC098FF74C09">
+						<Item class="TextLabel" referent="RBX6ED75256CD3847F280AB98D169CB99BE">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1246,7 +1244,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX4F2B91BC86314EF789800B08D0B06175">
+						<Item class="TextLabel" referent="RBXF76FED2B54DC40C7AA46289D943374B0">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1323,7 +1321,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextButton" referent="RBX9B62D7963C6641D4B8142A98AF32A5EA">
+						<Item class="TextButton" referent="RBX56B192BF0E884F43B54429297EACB0F2">
 							<Properties>
 								<bool name="Active">true</bool>
 								<Vector2 name="AnchorPoint">
@@ -1404,7 +1402,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextButton" referent="RBXA6288BCD8E6A4E4193CD803CE169F0FB">
+						<Item class="TextButton" referent="RBXFFBCBE4FECE64C6F8A63CD70A55AF336">
 							<Properties>
 								<bool name="Active">true</bool>
 								<Vector2 name="AnchorPoint">
@@ -1485,7 +1483,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX4B587315E4ED48A8A901694B97CB5C11">
+						<Item class="Frame" referent="RBX0B30ADF9B49F47EE806219230F6611AD">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1540,7 +1538,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX1C123FDABB11454CBD12CA4AAC7589C1">
+						<Item class="Frame" referent="RBX9FBE5E9F19FB4114B9E20F416CBEE9B5">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1595,7 +1593,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBXCB3E56AC49C942A683011CC0EA69E87C">
+						<Item class="TextLabel" referent="RBXEF79280D415F4121886FE6598871E539">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1672,7 +1670,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX9A172FEAA07247F38C002999A4E8FC49">
+						<Item class="TextLabel" referent="RBX3F5AB38FAEE448B8BED954A72692DB43">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1749,7 +1747,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX279CBE84BDA14AE0BC3403D00E6D836D">
+						<Item class="TextLabel" referent="RBX8360E4122A074D9C876225E4F872DA77">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1827,7 +1825,7 @@ return Data
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Frame" referent="RBXCF0EF82D88CC4A189D6931D71C424BE9">
+					<Item class="Frame" referent="RBXE2F8FAF21B0D4398A5C66F2D34E6CD14">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -1881,7 +1879,7 @@ return Data
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBX6BCAE1C861D4481E9DC00E1C3C949025">
+						<Item class="TextLabel" referent="RBXE7688E6F99FF46729D9F377EDFEF50A8">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -1958,7 +1956,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX7A7CD17216574E238B5985F129A45FF0">
+						<Item class="TextLabel" referent="RBX4A0965B10594405A98D87FCCC93C1A18">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2035,7 +2033,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX411515DB9D734DF39DBC726C539B5394">
+						<Item class="TextLabel" referent="RBXFC0A1D23A3CE4798B3F9467A2B348498">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2112,7 +2110,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX12D3B34AAD5B427FBF3C9079E9E882CD">
+						<Item class="TextLabel" referent="RBX7A13A69A33A941A8950151BC1BCE9661">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2189,7 +2187,7 @@ return Data
 								<int name="ZIndex">2</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX55AA57C0E3C2455893B0657CEC26AAEB">
+						<Item class="Frame" referent="RBXD7E0D058CD3843A79E268419F3ECC36E">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2244,7 +2242,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX8CAB7260C711447CA424BF096197586F">
+						<Item class="Frame" referent="RBXA5AC43C1BE104601B20D9B72D40D5B61">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2299,7 +2297,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX9EAFE9BDE98640C0827B26E122C5A375">
+						<Item class="Frame" referent="RBX1EE8BEF767F544F9BCC4EC3CD12AEE8E">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2354,7 +2352,7 @@ return Data
 								<int name="ZIndex">3</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX50784DC270A44EA089D2615D2010C2CB">
+						<Item class="TextLabel" referent="RBXB26449B83EE142E9955E316C49312A21">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2431,7 +2429,7 @@ return Data
 								<int name="ZIndex">2</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX12BF539D61E54DF0A570DE57B890047C">
+						<Item class="TextLabel" referent="RBX2CFF121C5E0B419B827B020A29C03B20">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2508,7 +2506,7 @@ return Data
 								<int name="ZIndex">2</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX88E5379BEBF64053B811B62C777EAB42">
+						<Item class="TextLabel" referent="RBX1116B5B1875D43E0B16975FC02500E1E">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2585,7 +2583,7 @@ return Data
 								<int name="ZIndex">2</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBXA5ACB7A7A3C84BFCAC9DC7FD4DC76A21">
+						<Item class="TextLabel" referent="RBX52FED099479D477DAF8ACD6E2B9FD9E2">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2662,7 +2660,7 @@ return Data
 								<int name="ZIndex">2</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX9C305FC7E2AC456E884D1A6244E514EA">
+						<Item class="TextLabel" referent="RBX3415F5B71B9F41DCB6C12DAC5A85D2EC">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -2740,7 +2738,7 @@ return Data
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Frame" referent="RBX0EE5C7FF0A7B44A38029121433AC636F">
+					<Item class="Frame" referent="RBX30A438A4E92F4A5681B2CBA162E3D85A">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -2794,7 +2792,7 @@ return Data
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextButton" referent="RBX245AF1E0A66F437F82A689CE589C5945">
+						<Item class="TextButton" referent="RBX16F027F9FB894B11969B43ABB990EEA8">
 							<Properties>
 								<bool name="Active">true</bool>
 								<Vector2 name="AnchorPoint">
@@ -2874,7 +2872,7 @@ return Data
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="UICorner" referent="RBX0360CA7345C64A25A494CB3E4D9484D8">
+							<Item class="UICorner" referent="RBXCCB4461CBDD44A15B82ADB727911A9D0">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<UDim name="CornerRadius">
@@ -2887,7 +2885,7 @@ return Data
 								</Properties>
 							</Item>
 						</Item>
-						<Item class="TextButton" referent="RBX6F7C4F65BBDF4511BE6C23CE81B26A1D">
+						<Item class="TextButton" referent="RBXAD469FC03E234DC68F27D665A468083C">
 							<Properties>
 								<bool name="Active">true</bool>
 								<Vector2 name="AnchorPoint">
@@ -2967,7 +2965,7 @@ return Data
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="UICorner" referent="RBXDD7F89EAE2164D50AB09231AD8385230">
+							<Item class="UICorner" referent="RBX1CCFC8191D2141ADAD92EEB024B2209E">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<UDim name="CornerRadius">
@@ -2980,7 +2978,7 @@ return Data
 								</Properties>
 							</Item>
 						</Item>
-						<Item class="TextButton" referent="RBX6DC3072F0FEE4B46A2BE5B508FFBA7AD">
+						<Item class="TextButton" referent="RBX6B4B61994071413F8AEBB6A827153B5B">
 							<Properties>
 								<bool name="Active">true</bool>
 								<Vector2 name="AnchorPoint">
@@ -3060,7 +3058,7 @@ return Data
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="UICorner" referent="RBX7ADCCBA97E614472B92E570222BE6318">
+							<Item class="UICorner" referent="RBX7F3F4E71F79F414EBE24AA561365C7B3">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<UDim name="CornerRadius">
@@ -3074,7 +3072,7 @@ return Data
 							</Item>
 						</Item>
 					</Item>
-					<Item class="Frame" referent="RBX2022AAD5489F4358816940807B72E750">
+					<Item class="Frame" referent="RBXA9BDC9C8EA95456EA750BC12155C818D">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -3128,7 +3126,7 @@ return Data
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="TextLabel" referent="RBXD86A8274FAF44BA8814E69A5774BCF35">
+						<Item class="TextLabel" referent="RBXF5747C0ABDE649EC825BBA60192CAC68">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -3205,7 +3203,7 @@ return Data
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX69385EA5F0E94112BA79A7D4C2C982DF">
+						<Item class="Frame" referent="RBX870340B63AF741F184504108060A85C3">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -3259,7 +3257,7 @@ return Data
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="TextButton" referent="RBXA73C1D51138C450FB9BC2C45AE842C27">
+							<Item class="TextButton" referent="RBX7F4A091DBFD34B14A23A836EF7BD663C">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -3339,7 +3337,7 @@ return Data
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX7371CB4138AD45D7A0F49A56CF1C9DFE">
+								<Item class="NumberValue" referent="RBXE36241BA55A145A396351ACC7497E295">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -3348,7 +3346,7 @@ return Data
 										<double name="Value">6</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX19A17E882DDB4650A052CBC9C87B7E8B">
+								<Item class="NumberValue" referent="RBX29AC21B247514D49A2E6B6C7CE53BA49">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -3358,7 +3356,7 @@ return Data
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX866B6F9AC17847FDB10A41A1DF78B634">
+							<Item class="TextButton" referent="RBXD6578A2D6F224AD686FDEE4350BE4756">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -3438,7 +3436,7 @@ return Data
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXE9E603DF6BDA4E0994B21E928B17E528">
+								<Item class="NumberValue" referent="RBX86FAB690166A45D6A724CA98FB3458ED">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -3447,7 +3445,7 @@ return Data
 										<double name="Value">10</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX802004BE5E324086B217F640C2107569">
+								<Item class="NumberValue" referent="RBXD5D62235FCF14D12A8893989EAEF8A55">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -3457,7 +3455,7 @@ return Data
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBXC418C56B4E624D378A05D31BB1618F32">
+							<Item class="TextButton" referent="RBX3028FBB7EB04496784DFE54CAB234D9D">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -3537,7 +3535,7 @@ return Data
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX4C7868E8C71945098ABC694B6EDA7FC9">
+								<Item class="NumberValue" referent="RBXDB74ADEE66AC407A8D3AAE16CEEBFCAE">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -3546,7 +3544,7 @@ return Data
 										<double name="Value">4</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX9EA4DCC7563446CC850CD410BA830436">
+								<Item class="NumberValue" referent="RBXC0E94BFA6D4646A99AAA6D45B2A30F0D">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -3556,7 +3554,7 @@ return Data
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX091BA051F2604A5B91590E7EDE566995">
+							<Item class="TextButton" referent="RBXE71CADFB59D3432A9B2FF9EA0931965D">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -3636,7 +3634,7 @@ return Data
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX415F5DC4035B4B70B1FEE51CF9E22344">
+								<Item class="NumberValue" referent="RBX0183CC8A71A14810B958A3CBBD3747B2">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -3645,7 +3643,7 @@ return Data
 										<double name="Value">2</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX5C6039DA082941B38C26238144B905F2">
+								<Item class="NumberValue" referent="RBXE8C3CC508BB941A294A81DDD80967FB5">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -3655,7 +3653,7 @@ return Data
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX78B8E5B56C614A1CB3F1D076AD4EAC70">
+							<Item class="TextButton" referent="RBX62EE09501FC54920814C4DD69E77C30C">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -3735,7 +3733,7 @@ return Data
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX8E491AFAE2C14316B9EEB56468BF9D16">
+								<Item class="NumberValue" referent="RBXFE018EE4D674439F862AFFDAF885994E">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -3744,7 +3742,7 @@ return Data
 										<double name="Value">8</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXB267C8E095F940C7AE4E357D19D28CD5">
+								<Item class="NumberValue" referent="RBXEAC7400C638749828EDABBAB4660EC72">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -3754,7 +3752,7 @@ return Data
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="ImageButton" referent="RBX1F14724B66084F16866E339E7526F354">
+							<Item class="ImageButton" referent="RBX06DADF69710244EA86D390A27E7AD086">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -3846,69 +3844,9 @@ return Data
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="LocalScript" referent="RBX83F693BD903C4244B37E85C69F03798D">
-									<Properties>
-										<BinaryString name="AttributesSerialize"></BinaryString>
-										<bool name="Disabled">false</bool>
-										<Content name="LinkedSource"><null></null></Content>
-										<string name="Name">LocalScript</string>
-										<string name="ScriptGuid">{751F1ADB-C80F-46BD-8A81-B108D45D95E5}</string>
-										<ProtectedString name="Source"><![CDATA[	local data = game.ReplicatedStorage.Attributes.Functions.Download:InvokeServer(script.Parent.Parent.Name)
-local data2 = game.ReplicatedStorage.Attributes.Functions.GetOwned:InvokeServer(script.Parent.Parent.Name)
-wait(0.6)
-if data then
-		local FirstChoice = data["First"]
-		local SecondChoice = data["Second"]
-		local ThirdChoice = data["Third"]
-		local Fourth = data["Fourth"]
-		local Fith = data["Fith"]
-		for _, prices in pairs(script.Parent.Parent:GetChildren()) do
-			if prices:IsA("TextButton") then
-				if prices.Name == "1" then
-					prices.Price.Value = FirstChoice
-				elseif prices.Name == "2" then
-					prices.Price.Value = SecondChoice
-				elseif prices.Name == "3" then
-					prices.Price.Value = ThirdChoice
-				elseif prices.Name == "4" then
-					prices.Price.Value = Fourth
-				elseif prices.Name == "5" then
-					prices.Price.Value = Fith
-				end
-			end 
-	end
-	print("data Set")
-end
-
-if data2 then
-	local num = data2["First"]
-	local num1 = data2["Second"]
-	local num2 = data2["Third"]
-	local num3= data2["Fourth"]
-	local num4 = data2["Fith"]
-	for _, textbutton in pairs(script.Parent.Parent:GetChildren()) do
-		if textbutton:IsA("TextButton") then
-			if textbutton.Name == '1' then
-				textbutton.BackgroundColor3 = num
-			elseif textbutton.Name == '2' then
-				textbutton.BackgroundColor3 = num1
-			elseif textbutton.Name == '3' then
-				textbutton.BackgroundColor3 = num2
-			elseif textbutton.Name == '4' then
-				textbutton.BackgroundColor3 = num3
-			elseif textbutton.Name == '5' then
-				textbutton.BackgroundColor3 = num4
-			end
-		end
-	end
-end]]></ProtectedString>
-										<int64 name="SourceAssetId">-1</int64>
-										<BinaryString name="Tags"></BinaryString>
-									</Properties>
-								</Item>
 							</Item>
 						</Item>
-						<Item class="TextLabel" referent="RBXD92D5013B9A446108112676A67779BAC">
+						<Item class="TextLabel" referent="RBXC27AD03AA71E4A50B17F776F278E13EE">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -3985,7 +3923,7 @@ end]]></ProtectedString>
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX0209DF24A0204BFCA20A1B76D55813D5">
+						<Item class="TextLabel" referent="RBX6972A12A633B4BD596022350B5F574A0">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -4062,7 +4000,7 @@ end]]></ProtectedString>
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX9F75806C206547AA915ED43438655BC1">
+						<Item class="Frame" referent="RBX6F7F329E088F4B819ECC6CCCD05A6E4C">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -4116,7 +4054,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="TextButton" referent="RBXA6E2117B9EBA4EB39C6BE3D67F47E415">
+							<Item class="TextButton" referent="RBX41B602E7D7A340CE98112745246C1E1F">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -4196,7 +4134,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX13B51A26C9614021AFD71DCF714172CB">
+								<Item class="NumberValue" referent="RBX33C289CAE72E42EA99FE7144EB110D2B">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -4205,7 +4143,7 @@ end]]></ProtectedString>
 										<double name="Value">6</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXDC184D9D1D0D46ADB78FBEF6B31BD58B">
+								<Item class="NumberValue" referent="RBX103DB585E7B4422B9E96B81FE4FBAF25">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -4215,7 +4153,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX1DE5EBC3A53B44FA9F722569D901B56F">
+							<Item class="TextButton" referent="RBX891A54A37F8C452994963C2A94C49A94">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -4295,7 +4233,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX777F2FA997714A18BDF0D0E5D36FB34E">
+								<Item class="NumberValue" referent="RBXE61DB747D065405BACF0E32A576835FC">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -4304,7 +4242,7 @@ end]]></ProtectedString>
 										<double name="Value">4</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXA2830DA1C1AF41A8A117D632CD431A4F">
+								<Item class="NumberValue" referent="RBX69419D51AAD544058DA00F3CFFDF0B2F">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -4314,7 +4252,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX23630903FA374FA3B7D52554E13C5101">
+							<Item class="TextButton" referent="RBXB754281CA7534B83ABD5D2D065C14F73">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -4394,7 +4332,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX277623B9F5D044A0B62AB2B75CD85B0B">
+								<Item class="NumberValue" referent="RBX65FC14C5CF0E40DBB6430ED9BBE57908">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -4403,7 +4341,7 @@ end]]></ProtectedString>
 										<double name="Value">2</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXEA1B5360356A4A1393ABB872414F579C">
+								<Item class="NumberValue" referent="RBX8B2080A573234BD8A008D63F29CF05EC">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -4413,7 +4351,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBXD34B89F646154EE9B57808A66BA1CF1B">
+							<Item class="TextButton" referent="RBX02DFA753641D410993242BA4C95351E6">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -4493,7 +4431,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXBCC485C86BDF401F823CAF6331C2DE9E">
+								<Item class="NumberValue" referent="RBX808D742F7C164484A1EADE3B9D0B50AF">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -4502,7 +4440,7 @@ end]]></ProtectedString>
 										<double name="Value">8</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXEDD8C38F0E3148DCB1216E54EEB8122B">
+								<Item class="NumberValue" referent="RBX0FBB966C608E4499A6BE8B685F61FEB0">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -4512,7 +4450,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBXEA6969B2730C4799909965C82F5AC0F7">
+							<Item class="TextButton" referent="RBXE82E9D9AE82C46C9824A2032FC853FF4">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -4592,7 +4530,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX7047E67A05644452959D056EFFCD451C">
+								<Item class="NumberValue" referent="RBX5C071231A37F48979B5779C5CD77EF25">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -4601,7 +4539,7 @@ end]]></ProtectedString>
 										<double name="Value">10</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX07EAB55328A940D2B9AC1F976EB38A3C">
+								<Item class="NumberValue" referent="RBXA7F9F4E9DC5148E6B551A18709DBE8AF">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -4611,7 +4549,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="ImageButton" referent="RBX906E29C00A714AB8A77F1B6B094C0D68">
+							<Item class="ImageButton" referent="RBX1F450F59C7134152A683966F5EEE084C">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -4703,69 +4641,9 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="LocalScript" referent="RBX7C580AB34436491CB3A054518C09C397">
-									<Properties>
-										<BinaryString name="AttributesSerialize"></BinaryString>
-										<bool name="Disabled">false</bool>
-										<Content name="LinkedSource"><null></null></Content>
-										<string name="Name">LocalScript</string>
-										<string name="ScriptGuid">{ED34106B-641C-466E-B742-2BFDFD6E68B2}</string>
-										<ProtectedString name="Source"><![CDATA[	local data = game.ReplicatedStorage.Attributes.Functions.Download:InvokeServer(script.Parent.Parent.Name)
-local data2 = game.ReplicatedStorage.Attributes.Functions.GetOwned:InvokeServer(script.Parent.Parent.Name)
-wait(0.2)
-if data then
-		local FirstChoice = data["First"]
-		local SecondChoice = data["Second"]
-		local ThirdChoice = data["Third"]
-		local Fourth = data["Fourth"]
-		local Fith = data["Fith"]
-		for _, prices in pairs(script.Parent.Parent:GetChildren()) do
-			if prices:IsA("TextButton") then
-				if prices.Name == "1" then
-					prices.Price.Value = FirstChoice
-				elseif prices.Name == "2" then
-					prices.Price.Value = SecondChoice
-				elseif prices.Name == "3" then
-					prices.Price.Value = ThirdChoice
-				elseif prices.Name == "4" then
-					prices.Price.Value = Fourth
-				elseif prices.Name == "5" then
-					prices.Price.Value = Fith
-				end
-			end 
-	end
-	print("data Set")
-end
-
-if data2 then
-	local num = data2["First"]
-	local num1 = data2["Second"]
-	local num2 = data2["Third"]
-	local num3= data2["Fourth"]
-	local num4 = data2["Fith"]
-	for _, textbutton in pairs(script.Parent.Parent:GetChildren()) do
-		if textbutton:IsA("TextButton") then
-			if textbutton.Name == '1' then
-				textbutton.BackgroundColor3 = num
-			elseif textbutton.Name == '2' then
-				textbutton.BackgroundColor3 = num1
-			elseif textbutton.Name == '3' then
-				textbutton.BackgroundColor3 = num2
-			elseif textbutton.Name == '4' then
-				textbutton.BackgroundColor3 = num3
-			elseif textbutton.Name == '5' then
-				textbutton.BackgroundColor3 = num4
-			end
-		end
-	end
-end]]></ProtectedString>
-										<int64 name="SourceAssetId">-1</int64>
-										<BinaryString name="Tags"></BinaryString>
-									</Properties>
-								</Item>
 							</Item>
 						</Item>
-						<Item class="TextLabel" referent="RBXBD91ED28AB104DA99301263FA60A93A6">
+						<Item class="TextLabel" referent="RBXD4CC190C1CF14FCD92398943D5AAC780">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -4842,7 +4720,7 @@ end]]></ProtectedString>
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX8F69A3FFD68E46EAB0434D5872A73526">
+						<Item class="TextLabel" referent="RBX89325581D23049F6AD85C3DF4F154418">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -4919,7 +4797,7 @@ end]]></ProtectedString>
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX6743C4B8F5D2405FAA375A4F7732D064">
+						<Item class="Frame" referent="RBX823D815A05E14262B5B5CC629E6E59E1">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -4973,7 +4851,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="TextButton" referent="RBXD2A6F6AA5E8B4970B289D35DE57B13E1">
+							<Item class="TextButton" referent="RBX571C3682F5A0451D9408009817471198">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5053,7 +4931,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX620AD8247B944B3CAEB83A8EB492D01A">
+								<Item class="NumberValue" referent="RBX2F1051A24E964F9DA413B4A43E59A16D">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5062,7 +4940,7 @@ end]]></ProtectedString>
 										<double name="Value">8</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX9370944471354F5E90626EBA10318D71">
+								<Item class="NumberValue" referent="RBXC6A9114D63C84051BAD0F4DD0C8A939F">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5072,7 +4950,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX517EDC2C73D04B0AA43AD4D1D0CFDE51">
+							<Item class="TextButton" referent="RBX800D188582E0439083CEEA649AF366F9">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5152,7 +5030,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX93C8F1E5275D4FBEA5EF101BDE05409C">
+								<Item class="NumberValue" referent="RBX45AA5A7892AC4880BC897F0717989C29">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5161,7 +5039,7 @@ end]]></ProtectedString>
 										<double name="Value">2</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXD32945C5CD5D48ECACDD1C1E0A2BD2FC">
+								<Item class="NumberValue" referent="RBX9346E5E85C0343C08F4E2CBE329D0A6D">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5171,7 +5049,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX3521A4DC7CAB4B1CAEA36EF5CC2C142A">
+							<Item class="TextButton" referent="RBXF355876C417444D2824AE316EB43BAEF">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5251,7 +5129,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXCA5AF49286CD48C687C66EBBEAD36D78">
+								<Item class="NumberValue" referent="RBXB794F24D13BD4A8B85D1825310DF3C7F">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5260,7 +5138,7 @@ end]]></ProtectedString>
 										<double name="Value">4</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX48DA34ED44C04225B1160E605E140C00">
+								<Item class="NumberValue" referent="RBXB46326574B584D4088FD18C75E5CA568">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5270,7 +5148,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBXC5F97ADF1F644F56B343EBC579729011">
+							<Item class="TextButton" referent="RBX18C2108E4A47411AA52BB800CDF3C721">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5350,7 +5228,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX4266C9B440F94AD699198D8020C6D162">
+								<Item class="NumberValue" referent="RBXD6E5085EA5A94FFB9DB12ACD995226DA">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5359,7 +5237,7 @@ end]]></ProtectedString>
 										<double name="Value">6</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXE04A3450C2C249308D7047260365655B">
+								<Item class="NumberValue" referent="RBXF33A61B9C551431083EE4CF319BE8F95">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5369,7 +5247,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX14BA96E47ECE4B4FA40B70A9D373AD8A">
+							<Item class="TextButton" referent="RBX98C48805C8F74711B233ED5A6F1177B9">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5449,7 +5327,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX863210BA3E2D4AAE902D31DB43DCF9E3">
+								<Item class="NumberValue" referent="RBX204C99683C9142E4A7520BEC17E168A6">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5458,7 +5336,7 @@ end]]></ProtectedString>
 										<double name="Value">10</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX814055DCD1ED48EDBD110D9801590896">
+								<Item class="NumberValue" referent="RBX0C5AFE4D2C7244F288F27F28DC47526A">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5468,7 +5346,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="ImageButton" referent="RBX84431A30ED934F318F855C8CBDA2EA63">
+							<Item class="ImageButton" referent="RBX3D8C0C4A4F654607A172C49A1F5B7D0B">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5560,69 +5438,9 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="LocalScript" referent="RBX5CC48A7010EB4CBFBD751E76F3F46248">
-									<Properties>
-										<BinaryString name="AttributesSerialize"></BinaryString>
-										<bool name="Disabled">false</bool>
-										<Content name="LinkedSource"><null></null></Content>
-										<string name="Name">LocalScript</string>
-										<string name="ScriptGuid">{9D682DDF-46A5-487C-8215-0A5B0F2B8E7D}</string>
-										<ProtectedString name="Source"><![CDATA[	local data = game.ReplicatedStorage.Attributes.Functions.Download:InvokeServer(script.Parent.Parent.Name)
-local data2 = game.ReplicatedStorage.Attributes.Functions.GetOwned:InvokeServer(script.Parent.Parent.Name)
-wait(0.4)
-if data then
-		local FirstChoice = data["First"]
-		local SecondChoice = data["Second"]
-		local ThirdChoice = data["Third"]
-		local Fourth = data["Fourth"]
-		local Fith = data["Fith"]
-		for _, prices in pairs(script.Parent.Parent:GetChildren()) do
-			if prices:IsA("TextButton") then
-				if prices.Name == "1" then
-					prices.Price.Value = FirstChoice
-				elseif prices.Name == "2" then
-					prices.Price.Value = SecondChoice
-				elseif prices.Name == "3" then
-					prices.Price.Value = ThirdChoice
-				elseif prices.Name == "4" then
-					prices.Price.Value = Fourth
-				elseif prices.Name == "5" then
-					prices.Price.Value = Fith
-				end
-			end 
-	end
-	print("data Set")
-end
-
-if data2 then
-	local num = data2["First"]
-	local num1 = data2["Second"]
-	local num2 = data2["Third"]
-	local num3= data2["Fourth"]
-	local num4 = data2["Fith"]
-	for _, textbutton in pairs(script.Parent.Parent:GetChildren()) do
-		if textbutton:IsA("TextButton") then
-			if textbutton.Name == '1' then
-				textbutton.BackgroundColor3 = num
-			elseif textbutton.Name == '2' then
-				textbutton.BackgroundColor3 = num1
-			elseif textbutton.Name == '3' then
-				textbutton.BackgroundColor3 = num2
-			elseif textbutton.Name == '4' then
-				textbutton.BackgroundColor3 = num3
-			elseif textbutton.Name == '5' then
-				textbutton.BackgroundColor3 = num4
-			end
-		end
-	end
-end]]></ProtectedString>
-										<int64 name="SourceAssetId">-1</int64>
-										<BinaryString name="Tags"></BinaryString>
-									</Properties>
-								</Item>
 							</Item>
 						</Item>
-						<Item class="Frame" referent="RBXC1416B1AA953405B8AE34A3562EFE950">
+						<Item class="Frame" referent="RBXD91BE01F6A8349FF87FEDFE2D5E6AC30">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -5676,7 +5494,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="TextButton" referent="RBX3B616170F50D40DF99EEAE1E92815DED">
+							<Item class="TextButton" referent="RBX212DA2C1F75C4809A2A0DD470750873E">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5756,7 +5574,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXE5B69E4380224A67A574ADA37B06F162">
+								<Item class="NumberValue" referent="RBXBF03BCFB0EF84AF99535B01E71B8DB7E">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5765,7 +5583,7 @@ end]]></ProtectedString>
 										<double name="Value">8</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXFD7DD39FCE3641698487D22D302086A0">
+								<Item class="NumberValue" referent="RBX4157B945B8424532B9820112E7994EC4">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5775,7 +5593,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX4638A8CAC0FE4BC0AB695572BCD07B28">
+							<Item class="TextButton" referent="RBX424245E40A2F4B469596043B7E557DF1">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5855,7 +5673,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX46421DEF5B3346FE8DB644014305E07B">
+								<Item class="NumberValue" referent="RBXF212F453B7574CDDB99E340697F600B3">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5864,7 +5682,7 @@ end]]></ProtectedString>
 										<double name="Value">2</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX941BEAE57B7142858E5567E862D2A51E">
+								<Item class="NumberValue" referent="RBXC7AF0877AA52488282B8C9456C975D15">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5874,7 +5692,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBXBEEA154A75D94EC79DBA14266F0C5F17">
+							<Item class="TextButton" referent="RBX8C25D97E738D4F219A4966EFD435CE52">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -5954,7 +5772,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXBD69C73E5B1B47FC829C64C5C8DDD3BF">
+								<Item class="NumberValue" referent="RBX635B12A782BF4A11BD645AAA447628CE">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -5963,7 +5781,7 @@ end]]></ProtectedString>
 										<double name="Value">4</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX153E8FD11004482986F406984B5CC46F">
+								<Item class="NumberValue" referent="RBXF11E85690CA14C6499720FAFD4157E38">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -5973,7 +5791,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX1714109F9F40415898449DC1DD90FB5B">
+							<Item class="TextButton" referent="RBXAA114C2A919F4163A3699A19D1C48CF6">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6053,7 +5871,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXF50020F4777242559D32EE122BCAA84B">
+								<Item class="NumberValue" referent="RBX680C2512001940C8B42C0285FA92F562">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -6062,7 +5880,7 @@ end]]></ProtectedString>
 										<double name="Value">6</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXD95732B5238642B8A1578BD2F0691453">
+								<Item class="NumberValue" referent="RBX9B5E04B3149941F8A6017AE82846BE0F">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -6072,7 +5890,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX9E645D46C33A4185BE7F27619339EE97">
+							<Item class="TextButton" referent="RBXE95C65E11C2D4611BE40A0F50C6A69D3">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6152,7 +5970,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXDCC33D0ECF0D4CF6A82260F5AF242582">
+								<Item class="NumberValue" referent="RBX034F259F7A334B7AB8739AD9DB486215">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -6161,7 +5979,7 @@ end]]></ProtectedString>
 										<double name="Value">10</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXAACA51B767AC4B43A42E3BEB14347ED1">
+								<Item class="NumberValue" referent="RBXB4082FD6EFB9401F9C9028C7D0B80CF0">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -6171,7 +5989,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="ImageButton" referent="RBXABD0469232694A1DAFBB8713C22BEB20">
+							<Item class="ImageButton" referent="RBX303FAFCA59224DB68E978AC7FD1EA215">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6263,69 +6081,9 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="LocalScript" referent="RBX959E98C91E024AE6AD0387E17CAF173A">
-									<Properties>
-										<BinaryString name="AttributesSerialize"></BinaryString>
-										<bool name="Disabled">false</bool>
-										<Content name="LinkedSource"><null></null></Content>
-										<string name="Name">LocalScript</string>
-										<string name="ScriptGuid">{4FA7FD53-1515-493C-BB3D-0314E1C9BC05}</string>
-										<ProtectedString name="Source"><![CDATA[	local data = game.ReplicatedStorage.Attributes.Functions.Download:InvokeServer(script.Parent.Parent.Name)
-local data2 = game.ReplicatedStorage.Attributes.Functions.GetOwned:InvokeServer(script.Parent.Parent.Name)
-wait(0.5)
-if data then
-		local FirstChoice = data["First"]
-		local SecondChoice = data["Second"]
-		local ThirdChoice = data["Third"]
-		local Fourth = data["Fourth"]
-		local Fith = data["Fith"]
-		for _, prices in pairs(script.Parent.Parent:GetChildren()) do
-			if prices:IsA("TextButton") then
-				if prices.Name == "1" then
-					prices.Price.Value = FirstChoice
-				elseif prices.Name == "2" then
-					prices.Price.Value = SecondChoice
-				elseif prices.Name == "3" then
-					prices.Price.Value = ThirdChoice
-				elseif prices.Name == "4" then
-					prices.Price.Value = Fourth
-				elseif prices.Name == "5" then
-					prices.Price.Value = Fith
-				end
-			end 
-	end
-	print("data Set")
-end
-
-if data2 then
-	local num = data2["First"]
-	local num1 = data2["Second"]
-	local num2 = data2["Third"]
-	local num3= data2["Fourth"]
-	local num4 = data2["Fith"]
-	for _, textbutton in pairs(script.Parent.Parent:GetChildren()) do
-		if textbutton:IsA("TextButton") then
-			if textbutton.Name == '1' then
-				textbutton.BackgroundColor3 = num
-			elseif textbutton.Name == '2' then
-				textbutton.BackgroundColor3 = num1
-			elseif textbutton.Name == '3' then
-				textbutton.BackgroundColor3 = num2
-			elseif textbutton.Name == '4' then
-				textbutton.BackgroundColor3 = num3
-			elseif textbutton.Name == '5' then
-				textbutton.BackgroundColor3 = num4
-			end
-		end
-	end
-end]]></ProtectedString>
-										<int64 name="SourceAssetId">-1</int64>
-										<BinaryString name="Tags"></BinaryString>
-									</Properties>
-								</Item>
 							</Item>
 						</Item>
-						<Item class="Frame" referent="RBX127BB0019C3D49148BF6A5EC57275E94">
+						<Item class="Frame" referent="RBX24756218E9CB44B6B12D42263AB8D332">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -6379,7 +6137,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="TextButton" referent="RBX1563651757C14B3C97F9E228A0D121E1">
+							<Item class="TextButton" referent="RBX22CAC6EF13BC49A9B4B4039AAA5ADA10">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6459,7 +6217,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX4734128A19E1412FA6E1B393C9B72955">
+								<Item class="NumberValue" referent="RBX6A4BE83E15474223A2F3EB1E27BFD487">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -6468,7 +6226,7 @@ end]]></ProtectedString>
 										<double name="Value">8</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX35ADDA0FAB904EF18A2E49F349D735F1">
+								<Item class="NumberValue" referent="RBX5B686176FB6645A992BF7B9DA503CB8C">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -6478,7 +6236,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX164F8A97FD294BF4B9BEE17B5DEB920E">
+							<Item class="TextButton" referent="RBXBF48B9F18FC949C2BD2739944FD6080A">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6558,7 +6316,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXD87176CDEC9F4064BD38CDCE4194E97F">
+								<Item class="NumberValue" referent="RBXDC38C2BCA9C94EDF8A6F1C19BCACD2B2">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -6567,7 +6325,7 @@ end]]></ProtectedString>
 										<double name="Value">2</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX0C86578223AC4C518096958F866EAB90">
+								<Item class="NumberValue" referent="RBX22F5CB31CED34CC3885E1DBE571E7E83">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -6577,7 +6335,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX0BB259D8D5034740B834FC06EAF2D476">
+							<Item class="TextButton" referent="RBXC726B5FA50254F40A5E1659355369524">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6657,7 +6415,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX014B0EAD21064AE3A886A7422E0CBEC1">
+								<Item class="NumberValue" referent="RBXABCC34D7089148BCACE203C5D590B986">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -6666,7 +6424,7 @@ end]]></ProtectedString>
 										<double name="Value">4</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXE2F19735A5154A3BA5FBBBDCDDE9390B">
+								<Item class="NumberValue" referent="RBX9B63BF9268704843BA2F3A25396511A4">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -6676,7 +6434,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX5E780CCA7BBF46B58BA9E785615BCCAA">
+							<Item class="TextButton" referent="RBXB010AD2B8C084DF78131D390BD4E39F2">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6756,7 +6514,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX666717AEA6DC430EB8983D645C3E9935">
+								<Item class="NumberValue" referent="RBX254284C1C9A247B695CD0EAB7F196300">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -6765,7 +6523,7 @@ end]]></ProtectedString>
 										<double name="Value">6</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX30EE5A49747448CB95C58958A55EABE7">
+								<Item class="NumberValue" referent="RBX9DC44D76E8114878A767865AC41CAC0D">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -6775,7 +6533,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX5238F366EE784D5CBF4C1FAF7E04D70C">
+							<Item class="TextButton" referent="RBX1CC0A737CC4241F980E959672FA0A225">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6855,7 +6613,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXE2FDF9BEBB5C424DBCB1C8B929E50F3D">
+								<Item class="NumberValue" referent="RBX3D6E782F1CD74C73A2B859B42C64FCC3">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -6864,7 +6622,7 @@ end]]></ProtectedString>
 										<double name="Value">10</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX9F426B161C5F4B1EA39742FE6A8F9A3A">
+								<Item class="NumberValue" referent="RBX67799F9A3B754017AE334D135AB08945">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -6874,7 +6632,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="ImageButton" referent="RBX5A8A572F9FC3460B8F035329386F1320">
+							<Item class="ImageButton" referent="RBXEEAE007B0FC54E0D9F2E3453DB01EF09">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -6966,69 +6724,9 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="LocalScript" referent="RBX495F787B69EA4B6FB9B0B33D5BD0A9C0">
-									<Properties>
-										<BinaryString name="AttributesSerialize"></BinaryString>
-										<bool name="Disabled">false</bool>
-										<Content name="LinkedSource"><null></null></Content>
-										<string name="Name">LocalScript</string>
-										<string name="ScriptGuid">{9F029E49-B3D0-490C-B879-D1E136BD5E4D}</string>
-										<ProtectedString name="Source"><![CDATA[	local data = game.ReplicatedStorage.Attributes.Functions.Download:InvokeServer(script.Parent.Parent.Name)
-local data2 = game.ReplicatedStorage.Attributes.Functions.GetOwned:InvokeServer(script.Parent.Parent.Name)
-wait(0.3)
-if data then
-		local FirstChoice = data["First"]
-		local SecondChoice = data["Second"]
-		local ThirdChoice = data["Third"]
-		local Fourth = data["Fourth"]
-		local Fith = data["Fith"]
-		for _, prices in pairs(script.Parent.Parent:GetChildren()) do
-			if prices:IsA("TextButton") then
-				if prices.Name == "1" then
-					prices.Price.Value = FirstChoice
-				elseif prices.Name == "2" then
-					prices.Price.Value = SecondChoice
-				elseif prices.Name == "3" then
-					prices.Price.Value = ThirdChoice
-				elseif prices.Name == "4" then
-					prices.Price.Value = Fourth
-				elseif prices.Name == "5" then
-					prices.Price.Value = Fith
-				end
-			end 
-	end
-	print("data Set")
-end
-
-if data2 then
-	local num = data2["First"]
-	local num1 = data2["Second"]
-	local num2 = data2["Third"]
-	local num3= data2["Fourth"]
-	local num4 = data2["Fith"]
-	for _, textbutton in pairs(script.Parent.Parent:GetChildren()) do
-		if textbutton:IsA("TextButton") then
-			if textbutton.Name == '1' then
-				textbutton.BackgroundColor3 = num
-			elseif textbutton.Name == '2' then
-				textbutton.BackgroundColor3 = num1
-			elseif textbutton.Name == '3' then
-				textbutton.BackgroundColor3 = num2
-			elseif textbutton.Name == '4' then
-				textbutton.BackgroundColor3 = num3
-			elseif textbutton.Name == '5' then
-				textbutton.BackgroundColor3 = num4
-			end
-		end
-	end
-end]]></ProtectedString>
-										<int64 name="SourceAssetId">-1</int64>
-										<BinaryString name="Tags"></BinaryString>
-									</Properties>
-								</Item>
 							</Item>
 						</Item>
-						<Item class="TextLabel" referent="RBXE162CFB8769E47A39561FB1E78A3CEC1">
+						<Item class="TextLabel" referent="RBX0BDC929D430940FAB33E68B30A6E7F8B">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -7105,7 +6803,7 @@ end]]></ProtectedString>
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="TextLabel" referent="RBX02FA7E67B61348D2AD4E6D7B31A50984">
+						<Item class="TextLabel" referent="RBX2349625556594815857696819F540631">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -7182,7 +6880,7 @@ end]]></ProtectedString>
 								<int name="ZIndex">1</int>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX5DFDDA76D0B8420B9472DE5D605B93EE">
+						<Item class="Frame" referent="RBXC6426D37944A4705A72A75F769C73BFD">
 							<Properties>
 								<bool name="Active">false</bool>
 								<Vector2 name="AnchorPoint">
@@ -7236,7 +6934,7 @@ end]]></ProtectedString>
 								<bool name="Visible">true</bool>
 								<int name="ZIndex">1</int>
 							</Properties>
-							<Item class="TextButton" referent="RBX6BEE534025494066B0FB784916C4419C">
+							<Item class="TextButton" referent="RBX4AB075C18BE443D0A6EF35E62EEA42CB">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -7316,7 +7014,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX87B106444DB44F62A8F3EF5DCE3403DF">
+								<Item class="NumberValue" referent="RBX797AC2433A0E4760AE2658068EDB097E">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -7325,7 +7023,7 @@ end]]></ProtectedString>
 										<double name="Value">8</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX17030D9CAAD04725B2536F4725E1DB26">
+								<Item class="NumberValue" referent="RBXB016F8E2F9B149FCA2F46A17DBBFD39E">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -7335,7 +7033,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX0E866E607D634F7F839C1C77C6F296CC">
+							<Item class="TextButton" referent="RBXF89EA57447AF46E3A0BE37BE5C5D23AE">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -7415,7 +7113,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX61A3DA069F5E4F058E5DB294D8C9E3AB">
+								<Item class="NumberValue" referent="RBXBDEA1D1A00004A3C9DA3A02B71D3C532">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -7424,7 +7122,7 @@ end]]></ProtectedString>
 										<double name="Value">2</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXF702F584D0BC43E28F55526383767789">
+								<Item class="NumberValue" referent="RBXCA080BE278E24B9FB25816F7CA59303A">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -7434,7 +7132,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX65BEEEDB0DEC4922B41695F5D9E4EF8B">
+							<Item class="TextButton" referent="RBXA64DDE77ADC641FE93EBAAA9D5744E06">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -7514,7 +7212,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBXA1BFB131F0A044A5A69DE2F52165DCDB">
+								<Item class="NumberValue" referent="RBX830848EE3AEC4B899765BCCB3EB87935">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -7523,7 +7221,7 @@ end]]></ProtectedString>
 										<double name="Value">4</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX870BE10462694F819F454A9DE4092DFD">
+								<Item class="NumberValue" referent="RBX233C4029727F4402A129052E4E0E54E7">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -7533,7 +7231,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX79B3AB2EC9C4461B8EBEEE52035F2890">
+							<Item class="TextButton" referent="RBXFB2A048141EE463E99B2D22F9ABB2EA0">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -7613,7 +7311,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX684022502DF34FBEB1F089DFB1A2B79E">
+								<Item class="NumberValue" referent="RBXB7878A3268094AE589864284762C01BC">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -7622,7 +7320,7 @@ end]]></ProtectedString>
 										<double name="Value">6</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX9E1883ADE772476DA8CFD2AA7E73BEB4">
+								<Item class="NumberValue" referent="RBXC43289F01F1F433B9A6D700B1A8C02FA">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -7632,7 +7330,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX6BD4A1D80BF74FF494960E80EA4EC1CB">
+							<Item class="TextButton" referent="RBX37522872633D48878E7264A10F9BBD37">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -7712,7 +7410,7 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="NumberValue" referent="RBX9A719B3864674B9AAAB9C8B665F38D07">
+								<Item class="NumberValue" referent="RBX1B26FE5D655145B7852654C0056A507B">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Level</string>
@@ -7721,7 +7419,7 @@ end]]></ProtectedString>
 										<double name="Value">10</double>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBXE45ABC6B72C641C7BE9728880C4F0EE8">
+								<Item class="NumberValue" referent="RBXF7CCF14A735B4659B6935FE518879363">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<string name="Name">Price</string>
@@ -7731,7 +7429,7 @@ end]]></ProtectedString>
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="ImageButton" referent="RBX3451289C6B7846989B69F52735F77901">
+							<Item class="ImageButton" referent="RBX0940B8C55A7B4DFEA8BCAE379D99588C">
 								<Properties>
 									<bool name="Active">true</bool>
 									<Vector2 name="AnchorPoint">
@@ -7823,74 +7521,15 @@ end]]></ProtectedString>
 									<bool name="Visible">true</bool>
 									<int name="ZIndex">1</int>
 								</Properties>
-								<Item class="LocalScript" referent="RBX60A27BC1C73447E98146BB4195D621B5">
-									<Properties>
-										<BinaryString name="AttributesSerialize"></BinaryString>
-										<bool name="Disabled">false</bool>
-										<Content name="LinkedSource"><null></null></Content>
-										<string name="Name">LocalScript</string>
-										<string name="ScriptGuid">{210DC39E-7B79-45AC-B422-48DDD59256ED}</string>
-										<ProtectedString name="Source"><![CDATA[local data = game.ReplicatedStorage.Attributes.Functions.Download:InvokeServer(script.Parent.Parent.Name)
-local data2 = game.ReplicatedStorage.Attributes.Functions.GetOwned:InvokeServer(script.Parent.Parent.Name)
-wait(0.7)
-if data then
-		local FirstChoice = data["First"]
-		local SecondChoice = data["Second"]
-		local ThirdChoice = data["Third"]
-		local Fourth = data["Fourth"]
-	local Fith = data["Fith"]
-		for _, prices in pairs(script.Parent.Parent:GetChildren()) do
-			if prices:IsA("TextButton") then
-				if prices.Name == "1" then
-					prices.Price.Value = FirstChoice
-				elseif prices.Name == "2" then
-					prices.Price.Value = SecondChoice
-				elseif prices.Name == "3" then
-					prices.Price.Value = ThirdChoice
-				elseif prices.Name == "4" then
-					prices.Price.Value = Fourth
-				elseif prices.Name == "5" then
-					prices.Price.Value = Fith
-				end
-			end 
-	end
-end
-
-if data2 then
-	local num = data2["First"]
-	local num1 = data2["Second"]
-	local num2 = data2["Third"]
-	local num3= data2["Fourth"]
-	local num4 = data2["Fith"]
-	for _, textbutton in pairs(script.Parent.Parent:GetChildren()) do
-		if textbutton:IsA("TextButton") then
-			if textbutton.Name == '1' then
-				textbutton.BackgroundColor3 = num
-			elseif textbutton.Name == '2' then
-				textbutton.BackgroundColor3 = num1
-			elseif textbutton.Name == '3' then
-				textbutton.BackgroundColor3 = num2
-			elseif textbutton.Name == '4' then
-				textbutton.BackgroundColor3 = num3
-			elseif textbutton.Name == '5' then
-				textbutton.BackgroundColor3 = num4
-			end
-		end
-	end
-end]]></ProtectedString>
-										<int64 name="SourceAssetId">-1</int64>
-										<BinaryString name="Tags"></BinaryString>
-									</Properties>
-								</Item>
 							</Item>
 						</Item>
-						<Item class="LocalScript" referent="RBXA286EEDB4D2748B5940BA20A4C6A53AA">
+						<Item class="LocalScript" referent="RBXA43839207042440583DBA07CAEB4287B">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<bool name="Disabled">false</bool>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">PurchaseHandler</string>
-								<string name="ScriptGuid">{A4E7FC82-5EDD-42BC-8F38-2DF2C763AF12}</string>
+								<string name="ScriptGuid">{4B50C342-EF18-49CA-8E6B-C47AAB60411B}</string>
 								<ProtectedString name="Source"><![CDATA[local rs = game:GetService("ReplicatedStorage")
 
 local reqeuestfunc = rs.Attributes.Functions.Request
@@ -7923,7 +7562,6 @@ local function SetData(image)
 		end
 	end
 	local updates = update:InvokeServer(game.Players.LocalPlayer)
-	
 end
 
 for _, frame in pairs(script.Parent:GetChildren()) do
@@ -7981,25 +7619,81 @@ end]]></ProtectedString>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
+						<Item class="LocalScript" referent="RBX46F2479268FF44679D9129463CE97145">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<bool name="Disabled">false</bool>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">SetData</string>
+								<string name="ScriptGuid">{E0776810-6248-4497-9B02-3C3A38FD3361}</string>
+								<ProtectedString name="Source"><![CDATA[
+function SetData(data, data2, frame)
+	if data then
+		local FirstChoice = data["First"]
+		local SecondChoice = data["Second"]
+		local ThirdChoice = data["Third"]
+		local Fourth = data["Fourth"]
+		local Fith = data["Fith"]
+		for _, prices in pairs(script.Parent[frame]:GetChildren()) do
+			if prices:IsA("TextButton") then
+				if prices.Name == "1" then
+					prices.Price.Value = FirstChoice
+				elseif prices.Name == "2" then
+					prices.Price.Value = SecondChoice
+				elseif prices.Name == "3" then
+					prices.Price.Value = ThirdChoice
+				elseif prices.Name == "4" then
+					prices.Price.Value = Fourth
+				elseif prices.Name == "5" then
+					prices.Price.Value = Fith
+				end
+			end 
+		end
+	end
+
+	if data2 then
+		local num = data2["First"]
+		local num1 = data2["Second"]
+		local num2 = data2["Third"]
+		local num3= data2["Fourth"]
+		local num4 = data2["Fith"]
+		for _, textbutton in pairs(script.Parent[frame]:GetChildren()) do
+			if textbutton:IsA("TextButton") then
+				if textbutton.Name == '1' then
+					textbutton.BackgroundColor3 = num
+				elseif textbutton.Name == '2' then
+					textbutton.BackgroundColor3 = num1
+				elseif textbutton.Name == '3' then
+					textbutton.BackgroundColor3 = num2
+				elseif textbutton.Name == '4' then
+					textbutton.BackgroundColor3 = num3
+				elseif textbutton.Name == '5' then
+					textbutton.BackgroundColor3 = num4
+				end
+			end
+		end
+	end
+end
+
+function GetData()
+	for _, frame in pairs(script.Parent:GetChildren()) do
+		if frame:IsA("Frame") then
+			local data = game.ReplicatedStorage.Attributes.Functions.Download:InvokeServer(frame.Name)
+			local data2 = game.ReplicatedStorage.Attributes.Functions.GetOwned:InvokeServer(frame.Name)
+			SetData(data, data2, frame.Name)
+			wait(0.2)
+		end
+	end
+end
+
+GetData()]]></ProtectedString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
 					</Item>
 				</Item>
 			</Item>
-		</Item>
-		<Item class="Script" referent="RBX9FA8D2C48E12439EAB4B6C5835EB2873">
-			<Properties>
-				<BinaryString name="AttributesSerialize"></BinaryString>
-				<bool name="Disabled">false</bool>
-				<Content name="LinkedSource"><null></null></Content>
-				<string name="Name">Read :)_</string>
-				<string name="ScriptGuid">{93607A98-72EE-4B28-BD16-FBBF43F29105}</string>
-				<ProtectedString name="Source"><![CDATA[--[[
-Hey, So I can't really figure out this
- line 13-20, use a rbxscriptconnection to spawn a new script thread / coroutine to not hang up the thread with an infinite loop.
- I have done everything else that you asked, It was amazing working with you though :). 
- ]]]]></ProtectedString>
-				<int64 name="SourceAssetId">-1</int64>
-				<BinaryString name="Tags"></BinaryString>
-			</Properties>
 		</Item>
 	</Item>
 	<SharedStrings>
